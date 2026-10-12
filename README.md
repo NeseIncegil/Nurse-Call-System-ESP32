@@ -88,8 +88,13 @@ The system was extended using an ESP32 microcontroller in the Wokwi simulation e
 The ESP32 version supports Wi-Fi connectivity and MQTT message publishing while preserving the original button and LED functionality.
 
 Simulation Screenshot
+### ESP32 Circuit and Source Code
 
-The Wokwi circuit screenshot will be inserted here.
+![ESP32 Circuit Simulation](esp32circuit-simulation-wokwi.jpeg)
+
+### Wokwi Simulation – Active Patient Call
+
+![Wokwi Simulation](wokwi-simulation.jpeg)
 
 Simulation Demonstration Video
 
@@ -121,8 +126,9 @@ Test Results
 - Both messages were observed in the HiveMQ WebSocket client.
 
 MQTT Test Screenshot
+### MQTT Communication Test Results
 
-The HiveMQ test screenshot will be inserted here.
+![HiveMQ MQTT Communication – CALL and CLEARED](mqttcommunication.jpeg.jpeg)
 
 9. Project Files
 
