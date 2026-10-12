@@ -67,7 +67,11 @@ Step 5 – Call Cancellation
 The LED switches off, and the ESP32 publishes a "CLEARED" message to the same MQTT topic.
 
 6. Physical Prototype – Arduino Uno
+![Arduino Uno Prototype 1](arduino-prototype-1.jpg.jpeg)
 
+![Arduino Uno Prototype 2](arduino-protype-2.jpg.jpeg)
+
+![Arduino Uno Prototype 3](arduino-protype-3.jpg.jpeg)
 The initial prototype was assembled and tested using a physical Arduino Uno board.
 
 The circuit demonstrated the fundamental operation of the nurse call system using two push buttons and an LED.
