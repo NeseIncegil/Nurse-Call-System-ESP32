@@ -138,6 +138,36 @@ File| Description
 "libraries.txt"| Required external library declaration
 "README.md"| Project documentation
 
+Project Development Stages
+
+This project was developed in two stages to demonstrate the transition from a basic electronic nurse call system to an IoT-enabled solution.
+
+Phase 1 – Arduino Uno Physical Prototype
+
+The first stage involved building and testing a physical nurse call system using an Arduino Uno, two push buttons, and an LED.
+
+The patient button activates the LED, while the nurse button clears the call and turns the LED off.
+
+Source Code: "Nursing_call_systems.ino"
+
+Phase 2 – ESP32 IoT Implementation
+
+The second stage extended the original system using an ESP32 microcontroller in the Wokwi simulation environment.
+
+The ESP32 version maintains the same basic functionality while adding Wi-Fi connectivity and MQTT communication.
+
+When the patient presses the call button, the system publishes a "CALL" message. When the nurse clears the call, it publishes a "CLEARED" message.
+
+Source Code: "sketch.ino"
+
+Differences Between the Two Implementations
+
+The Arduino Uno and ESP32 programs use different GPIO pin assignments and communication capabilities because they target different microcontrollers.
+
+These differences are intentional and reflect the development of the project from a physical electronic prototype to an IoT-based simulation.
+
+Both implementations follow the same fundamental nurse call logic.
+
 10. Conclusion
 
 The Nurse Call System demonstrates the integration of embedded electronics, wireless networking, and MQTT communication in a basic healthcare assistance prototype.
